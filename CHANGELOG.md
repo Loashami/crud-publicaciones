@@ -2,6 +2,12 @@
 
 Todas las modificaciones notables en este proyecto serán documentadas en este archivo.
 
+## [0.1.1] - 2025-06-11
+
+### Corregido
+
+- Se solucionó un error crítico que impedía el correcto funcionamiento del sistema de login.
+
 ## [0.1.0] - 2025-06-11
 
 ### Añadido
@@ -12,7 +18,7 @@ Todas las modificaciones notables en este proyecto serán documentadas en este a
 
 ---
 
-## [0.1.0] - 2025-05-11
+## [0.0.1] - 2025-05-11
 
 ### Añadido
 
