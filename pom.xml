@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.mateoev</groupId>
 	<artifactId>crud-publicaciones</artifactId>
-	<version>0.1.0</version>
+	<version>0.2.0</version>
 	<name>crud-publicaciones</name>
 	<description>Demo project for Spring Boot</description>
 	<url />
