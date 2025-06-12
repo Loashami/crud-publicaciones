@@ -26,6 +26,11 @@ public class PublicationServiceImpl implements PublicationService {
     }
 
     @Override
+    public void deleteById(Long id) {
+        publicationRepository.deleteById(id);
+    }
+
+    @Override
     public Publication save(Publication publication) {
         return publicationRepository.save(publication);
     }

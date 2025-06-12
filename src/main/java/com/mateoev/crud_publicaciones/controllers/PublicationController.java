@@ -20,6 +20,15 @@ public class PublicationController {
     return publicationService.findAll();
   }
 
+  @DeleteMapping("/{id}")
+  public ResponseEntity<Void> delete(@PathVariable Long id) {
+    if (!publicationService.findById(id).isPresent()) {
+      return ResponseEntity.notFound().build();
+    }
+    publicationService.deleteById(id);
+    return ResponseEntity.noContent().build();
+  }
+
   @PostMapping
   public Publication create(@RequestBody Publication publication) {
     return publicationService.save(publication);
