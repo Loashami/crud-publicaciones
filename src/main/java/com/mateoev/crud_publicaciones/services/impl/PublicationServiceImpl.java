@@ -18,4 +18,9 @@ public class PublicationServiceImpl implements PublicationService {
     public List<Publication> findAll() {
         return publicationRepository.findAll();
     }
+
+    @Override
+    public Publication save(Publication publication) {
+        return publicationRepository.save(publication);
+    }
 }

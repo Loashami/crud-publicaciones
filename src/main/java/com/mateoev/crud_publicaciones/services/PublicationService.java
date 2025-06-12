@@ -6,4 +6,6 @@ import com.mateoev.crud_publicaciones.entities.Publication;
 
 public interface PublicationService {
   List<Publication> findAll();
+
+  Publication save(Publication publication);
 }

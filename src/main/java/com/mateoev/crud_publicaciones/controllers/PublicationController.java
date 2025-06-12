@@ -19,4 +19,8 @@ public class PublicationController {
     return publicationService.findAll();
   }
 
+  @PostMapping
+  public Publication create(@RequestBody Publication publication) {
+    return publicationService.save(publication);
+  }
 }
