@@ -1,6 +1,7 @@
 package com.mateoev.crud_publicaciones.services.impl;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,6 +18,11 @@ public class PublicationServiceImpl implements PublicationService {
     @Override
     public List<Publication> findAll() {
         return publicationRepository.findAll();
+    }
+
+    @Override
+    public Optional<Publication> findById(Long id) {
+        return publicationRepository.findById(id);
     }
 
     @Override
