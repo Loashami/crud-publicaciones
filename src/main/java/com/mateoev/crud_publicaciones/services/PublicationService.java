@@ -1,5 +1,9 @@
 package com.mateoev.crud_publicaciones.services;
 
-public interface PublicationService {
+import java.util.List;
 
+import com.mateoev.crud_publicaciones.entities.Publication;
+
+public interface PublicationService {
+  List<Publication> findAll();
 }
