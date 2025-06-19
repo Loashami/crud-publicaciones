@@ -25,6 +25,7 @@ public class PublicationServiceImpl implements PublicationService {
         return publicationRepository.findById(id);
     }
 
+//implementacion del metodo
     @Override
     public void deleteById(Long id) {
         publicationRepository.deleteById(id);
