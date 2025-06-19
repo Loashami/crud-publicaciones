@@ -10,7 +10,7 @@ public interface PublicationService {
 
   Optional<Publication> findById(Long id);
 
-  //el metodo delete
+  //El Metodo delete
   void deleteById(Long id);
 
 
